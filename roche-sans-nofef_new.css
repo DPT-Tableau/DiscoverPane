@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Roche Sans';
+    font-family: 'Roche Sans2';
     src: url("https://fonts.roche.com/fonts/RocheSans-Light.ttf") format("truetype"), url("https://fonts.roche.com/fonts/RocheSans-Light.woff") format("woff"), url("https://fonts.roche.com/fonts/RocheSans-Light.woff2") format("woff2");
     font-display: auto;
     font-style: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: 'Roche Sans';
+    font-family: 'Roche Sans2';
     src: url("https://fonts.roche.com/fonts/RocheSans-LightItalic.ttf") format("truetype"), url("https://fonts.roche.com/fonts/RocheSans-LightItalic.woff") format("woff"), url("https://fonts.roche.com/fonts/RocheSans-LightItalic.woff2") format("woff2");
     font-display: auto;
     font-style: italic;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family: 'Roche Sans';
+    font-family: 'Roche Sans2';
     src: url("https://fonts.roche.com/fonts/RocheSans-Medium.ttf") format("truetype"), url("https://fonts.roche.com/fonts/RocheSans-Medium.woff") format("woff"), url("https://fonts.roche.com/fonts/RocheSans-Medium.woff2") format("woff2");
     font-display: auto;
     font-style: normal;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'Roche Sans';
+    font-family: 'Roche Sans2';
     src: url("https://fonts.roche.com/fonts/RocheSans-MediumItalic.ttf") format("truetype"), url("https://fonts.roche.com/fonts/RocheSans-MediumItalic.woff") format("woff"), url("https://fonts.roche.com/fonts/RocheSans-MediumItalic.woff2") format("woff2");
     font-display: auto;
     font-style: italic;
