@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Roche Serif';
+    font-family: 'Roche Serif man';
     src: url("https://fonts.roche.com/fonts/RocheSerif-Light.ttf") format("truetype"), url("https://fonts.roche.com/fonts/RocheSerif-Light.woff") format("woff"), url("https://fonts.roche.com/fonts/RocheSerif-Light.woff2") format("woff2");
     font-display: auto;
     font-style: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: 'Roche Serif';
+    font-family: 'Roche Serif man';
     src: url("https://fonts.roche.com/fonts/RocheSerif-Italic.ttf") format("truetype"), url("https://fonts.roche.com/fonts/RocheSerif-Italic.woff") format("woff"), url("https://fonts.roche.com/fonts/RocheSerif-Italic.woff2") format("woff2");
     font-display: auto;
     font-style: italic;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family: 'Roche Serif';
+    font-family: 'Roche Serif man';
     src: url("https://fonts.roche.com/fonts/RocheSerif-LightItalic.ttf") format("truetype"), url("https://fonts.roche.com/fonts/RocheSerif-LightItalic.woff") format("woff"), url("https://fonts.roche.com/fonts/RocheSerif-LightItalic.woff2") format("woff2");
     font-display: auto;
     font-style: italic;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'Roche Serif';
+    font-family: 'Roche Serif man';
     src: url("https://fonts.roche.com/fonts/RocheSerif-Regular.ttf") format("truetype"), url("https://fonts.roche.com/fonts/RocheSerif-Regular.woff") format("woff"), url("https://fonts.roche.com/fonts/RocheSerif-Regular.woff2") format("woff2");
     font-display: auto;
     font-style: normal;
