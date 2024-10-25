@@ -61,44 +61,34 @@ body {
     list-style: none;
 }
 
-.rds-tableau-sidenav summary {
+.rds-tableau-sidenav h2 {
     display: flex;
-    cursor: pointer;
     gap: 12px;
-    user-select: none;
+    margin: 0;
     padding-block: 8px;
     color: #544F4F;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
 }
 
-.rds-tableau-sidenav summary::before,
-.rds-tableau-sidenav summary::after {
+.rds-tableau-sidenav h2::before {
     content: '';
     display: block;
     width: 24px;
     height: 24px;
 }
 
-.rds-tableau-sidenav summary::after {
-    background-image: url("chevron_up.svg");
-    margin-left: auto;
-}
-
-.rds-tableau-sidenav details summary::after {
-    transform: rotate(180deg);
-}
-.rds-tableau-sidenav details[open] summary::after {
-    transform: rotate(0);
-}
-
-.rds-tableau-sidenav .roche-resources::before {
+.rds-tableau-sidenav #roche-resources::before {
     background-image: url("pills.svg");
 }
 
-.rds-tableau-sidenav .tableau-resources::before {
+.rds-tableau-sidenav #tableau-resources::before {
     background-image: url("chart_view_histogram.svg");
 }
 
-.rds-tableau-sidenav .design-resources::before {
+.rds-tableau-sidenav #design-resources::before {
     background-image: url("write.svg");
 }
 
