@@ -42,7 +42,7 @@ body {
     background: #fff;
     padding-inline: 32px;
     box-sizing: border-box;
-    width: clamp(180px, 40ch, 100%);
+    width: clamp(180px, 40ch, calc(100% - 29px));
     font-family: 'Roche Sans';
     font-size: 16px;
     font-weight: 400;
@@ -100,9 +100,10 @@ body {
 #rds-sidenav.rds-tableau-sidenav li {
     border-left: 1px solid #C2BAB5;
     padding: 8px 0 8px 24px;
+    color: #544F4F;
 }
 
 #rds-sidenav.rds-tableau-sidenav a {
-    color: #544F4F;
+    color: inherit;
     text-decoration: none;
 }
