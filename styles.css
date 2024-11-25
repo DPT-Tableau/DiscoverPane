@@ -38,30 +38,30 @@ body {
     background: #f8f8f8;
 }
 
-.rds-tableau-sidenav {
+#rds-sidenav.rds-tableau-sidenav {
     background: #fff;
     padding-inline: 32px;
     box-sizing: border-box;
-    width: clamp(343px, 40ch, 100%);
+    width: clamp(180px, 40ch, 100%);
     font-family: 'Roche Sans';
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.2px;
 }
 
-.rds-tableau-sidenav img {
+#rds-sidenav.rds-tableau-sidenav img {
     display: block;
     width: 157px;
     height: 83px;
     margin: 40px auto;
 }
 
-.rds-tableau-sidenav :is(ul, summary) {
-    list-style: none;
+#rds-sidenav.rds-tableau-sidenav ul {
+    list-style: none !important;
 }
 
-.rds-tableau-sidenav h2 {
+#rds-sidenav.rds-tableau-sidenav h2 {
     display: flex;
     gap: 12px;
     margin: 0;
@@ -73,36 +73,36 @@ body {
     letter-spacing: inherit;
 }
 
-.rds-tableau-sidenav h2::before {
+#rds-sidenav.rds-tableau-sidenav h2::before {
     content: '';
     display: block;
     width: 24px;
     height: 24px;
 }
 
-.rds-tableau-sidenav #roche-resources::before {
+#rds-sidenav.rds-tableau-sidenav #roche-resources::before {
     background-image: url("pills.svg");
 }
 
-.rds-tableau-sidenav #tableau-resources::before {
+#rds-sidenav.rds-tableau-sidenav #tableau-resources::before {
     background-image: url("chart_view_histogram.svg");
 }
 
-.rds-tableau-sidenav #design-resources::before {
+#rds-sidenav.rds-tableau-sidenav #design-resources::before {
     background-image: url("write.svg");
 }
 
-.rds-tableau-sidenav ul {
+#rds-sidenav.rds-tableau-sidenav ul {
     margin: 8px 0;
     padding: 0;
 }
 
-.rds-tableau-sidenav li {
+#rds-sidenav.rds-tableau-sidenav li {
     border-left: 1px solid #C2BAB5;
     padding: 8px 0 8px 24px;
 }
 
-.rds-tableau-sidenav a {
+#rds-sidenav.rds-tableau-sidenav a {
     color: #544F4F;
     text-decoration: none;
 }
