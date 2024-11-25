@@ -42,7 +42,7 @@ body {
     background: #fff;
     padding-inline: 32px;
     box-sizing: border-box;
-    width: clamp(180px, 40ch, calc(100% - 34px));
+    width: clamp(180px, 40ch, calc(100% - 40px));
     font-family: 'Roche Sans';
     font-size: 16px;
     font-weight: 400;
